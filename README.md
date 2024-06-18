@@ -1,19 +1,30 @@
 # ElectronSetup
 
-# You need to install node js 
+## Prerequisites
 
-# You need git bash
+- **Node.js**: Ensure you have Node.js installed. 
+- **Git Bash**: Install Git Bash.
 
-# git clone {clone link of repo}
+## Setup Instructions
 
-# Open foler with visual studio
+1. **Clone the Repository**:
+2. **Open the Folder with Visual Studio**:
+     Open the cloned repository folder in Visual Studio.
 
-# npm ci
+3. **Install Dependencies**:
+     npm ci
 
-# npx gulp create-windows-installer
+5. **Create Windows Installer**:
+     npx gulp create-windows-installer
 
-# After you make changes run -> npm run compile
+## Development
 
-# Then you will find your files and exe compiled for windows in dist/my-electron-app-win32-x64
+- **Compile Changes**:
+    After making changes, run the following command to compile:
+    npm run compile
 
-# If you wanna see changes in real time run -> npm start
+    You will find your files and the compiled executable for Windows in `dist/my-electron-app-win32-x64`.
+
+- **Run in Development Mode**:
+    To see changes in real-time, run:
+    npm start
